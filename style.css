@@ -1,0 +1,363 @@
+
+.sub-nav{
+    padding: 15px 5px;
+    background-color: rgb(228, 173, 141);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.sub-nav a{
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sub-nav .track {
+    margin: 250px;
+}
+
+.sub-nav .happy {
+    margin: 100px;
+}
+
+
+.nav {
+    padding: 15px 2px;
+    background-color: white;
+       
+}
+
+::placeholder {
+    size: 50;
+}
+
+input[type=text] {
+    padding: 8px 50px;
+    border : 1px solid black;
+    border-radius: 4px;
+}
+.nav button {
+    padding: 8px;
+    border-radius: 4px;
+}
+.nav .name {
+   color: rgb(83, 76, 76);
+   font-size: 20px;
+   font-weight: bolder;
+}
+
+.nav a{
+    margin: 90px;
+    color:black;
+    text-decoration: none;
+    float: initial;
+    
+}
+.logo img{
+    position: absolute;
+}
+
+.menu{
+    padding: 15px 5px;
+    background-color: white;
+    text-align: center;
+}
+
+.menu a{
+    text-decoration: none;
+    margin: 30px;
+    color: rgb(46, 43, 43);
+    font-size: 18px;
+    font-style: initial;
+}
+
+.eyewear h2 {
+    text-align: center;
+    font-size: 35px;
+    font-style: oblique;
+}
+
+
+.image-box .sun {
+    padding: 10px; 
+    display: inline-block; 
+    background-color: rgb(245, 243, 240);
+    margin: 15px;
+}
+
+.products h2 {
+    text-align: center;
+    font-size: 35px;
+    font-style: oblique;
+}
+
+
+
+.frame {
+    width: 250px;
+    height: 250px;
+    
+}
+
+
+
+.mail {
+    /* Your CSS styles for the 'mail' class go here */
+    color: #0066cc; /* Set the text color to blue as an example */
+    text-decoration: none; /* Remove underline from the link */
+}
+
+
+.sub-nav .a mail {
+    margin: 10px;
+    color: white;
+}  
+
+
+
+.nav .search::placeholder {
+    color: #999; /* Set the placeholder text color to gray as an example */
+    font-style: italic; /* Italicize the placeholder text as an example */
+    /* Add any other styles you want to apply to the placeholder text */
+}
+
+
+.nav .name {
+    
+    color: rgb(50, 47, 47); /* Set the text color to blue as an example */
+    text-decoration: none; /* Remove underline from the link */
+    font-style: oblique; /* Replace 'Your Font Here' with the actual font name */
+    font-size: 20px; /* Set the font size as an example */
+    font-weight: bold; /* Set the font weight as an example */
+}
+
+
+.nav .search {
+    /* Your CSS styles for the 'search' class within the 'nav' class go here */
+    border: 1px solid #ccc; /* Example border style */
+    padding: 5px; /* Example padding */
+    font-size: 14px; /* Example font size */
+}
+
+
+.sub-nav .happy {
+    /* Your default styles for the 'happy' class go here */
+    color: white; /* Default text color */
+    text-decoration: none; /* Remove underline by default */
+}
+
+
+.image-box {
+    padding: 10px; /* Padding inside the frame */
+    display: inline-block; /* Make the frame inline-block to fit around the image */
+}
+
+.sun img {
+    /* Set the max-width to ensure the image doesn't overflow the frame */
+    max-width: 100%;
+    height: auto; /* Maintain the image's aspect ratio */
+}
+
+
+
+.frame {
+    width: 250px; /* Set a fixed width for the frame */
+    height: 250px; /* Set a fixed height for the frame */
+    border: 2px solid #333; /* Border color and width */
+    overflow: hidden; /* Hide any content that overflows the frame */
+}
+
+
+.frame img {
+    object-fit: cover; 
+    position: sticky;
+}
+
+.frame h3 {
+    color: black;
+}
+ 
+
+.products {
+    /* Add styling to the products section if needed */
+    display: inline-block;
+    justify-content: center;
+}
+
+.frame {
+    width: 250px; /* Set a fixed width for the frame */
+    height: 250px; /* Set a fixed height for the frame */
+    margin: 10px; /* Optional margin between frames */
+    border: 2px solid #333; /* Border color and width */
+    overflow: hidden; /* Hide any content that overflows the frame */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frame img {
+    width: 100%; /* Make the image fill the entire frame width */
+    height: 100%; /* Make the image fill the entire frame height */
+    object-fit: cover; /* Maintain the aspect ratio and cover the entire frame */
+}
+
+.products .frame {
+    padding: 10px;
+    display: inline-block;
+    margin: 5px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.brand h2{
+    text-align: center;
+    font-size: 35px;
+    font-style: oblique;
+    
+}
+
+.brand .brand-name {
+    display: inline-block;
+    align-items: center;
+    margin: 10px;
+}
+
+.brand .brand-name img{
+    align-items: center;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.about a {
+    text-decoration: none; /* Remove underline from the anchor tag */
+}
+
+.we {
+    width: 45%; /* Adjust the width of the container */
+    padding: 10px;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    text-decoration: none;
+}
+
+.we h2 {
+    color: black;
+    font-size: 35px;
+    font-style: oblique;
+    text-align: center;
+}
+
+.we p {
+    font-size: 20px;
+    font-style: inherit;
+    line-height: 1.5;
+    color: rgb(31, 29, 29);
+}
+
+.we-pic {
+    width: 45%; /* Adjust the width of the container */
+}
+
+.we-pic img {
+    display: block;
+    width: 70%; /* Ensure the image fills its container */
+}
+
+.smille h2 {
+    text-align: center;
+    font-size: 35px;
+    font-style: oblique;
+}
+
+.smille .happy {
+    padding: 10px; 
+    display: inline-block; 
+    margin: 10px;
+    background-color: rgb(162, 202, 212)
+    
+}
+
+.happy {
+    width: 300px; /* Set a fixed width for the frame */
+    height: 300px;
+    display: inline;
+}
+
+.happy:hover {
+    transform: scale(1.1); /* Adjust the scaling factor as needed */
+    transition: .5s;
+}
+
+.location h2 {
+    text-align: center;
+    font-size: 35px;
+    font-style: oblique;
+}
+
+.location  {
+    text-align: center;
+}
+
+.section-p1 .col h2 {
+    text-align: center;
+    font-size: 35px;
+    font-style: oblique;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer.row{
+    margin-bottom: 20px;
+}
+
+footer p{
+    font-size:17px;
+    margin: 0 0 7px 0 ;
+} 
+
+footer a{
+    font-size:17px;
+    text-decoration: none;
+    color: black;
+    margin: 0 0 7px 0 ;
+} 
+
+footer .copyright {
+   width: 100%;
+   text-align: center;
+   padding:20px 100px;
+   background-color: #0b0b0c;
+   color: white;
+}
+
+.menu .fa{
+    display: none
+}
+@media only screen and ( max-width: 600px){
+
+}
+
+
+
+
+
+
+
